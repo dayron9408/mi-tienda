@@ -1,6 +1,6 @@
 import { useCart } from '../context/CartContext'
 import { FaShoppingCart } from 'react-icons/fa'
-import ThemeSwitcher from '../components/ThemeSwitcher' // si usas el componente con swap
+import ThemeSwitcher from '../components/ThemeSwitcher'
 
 const Navbar = () => {
   const { cart } = useCart()

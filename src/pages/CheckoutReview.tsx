@@ -9,7 +9,7 @@ const CheckoutReview = () => {
     const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0)
 
     const handlePay = () => {
-        toast.success('¡Compra realizada con éxito! 🎉')
+        toast.success('¡Compra realizada con éxito!')
         clearCart()
         navigate({ to: '/thanks' })
     }
