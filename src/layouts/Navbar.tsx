@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 text-base-content px-4 shadow-md sticky top-0 z-50">
       <div className="flex-1">
         <div className="flex items-center gap-2">
-          <img src="/vite.svg" alt="Logo Mi tienda" className="h-6 w-6" />
+          <img src="/logo.svg" alt="Logo Mi tienda" className="h-8 w-8" />
           <a href="/" className="text-xl font-bold">Mi Tienda</a>
         </div>
       </div>

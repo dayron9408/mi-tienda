@@ -17,6 +17,6 @@ export const CartContext = createContext<CartContextType | undefined>(undefined)
 
 export const useCart = () => {
     const context = useContext(CartContext)
-    if (!context) throw new Error('useCart must be used within CartProvider')
+    if (!context) throw new Error('useCart debe estar dentro de CartProvider')
     return context
 }
