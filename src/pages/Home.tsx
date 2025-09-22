@@ -64,7 +64,7 @@ const Home = () => {
                     value={search}
                     onChange={e => setSearch(e.target.value)}
                 />
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap  gap-2">
                     <button
                         className={`btn btn-sm ${category === null ? 'btn-primary' : 'btn-outline'}`}
                         onClick={() => setCategory(null)}
@@ -84,7 +84,7 @@ const Home = () => {
             </div>
 
             {/* Ordenamiento */}
-            <div className="flex gap-2 mb-6">
+            <div className="flex flex-wrap  gap-2 mb-6">
                 <button
                     className={`btn btn-sm ${sortBy === 'price' ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => setSortBy('price')}
