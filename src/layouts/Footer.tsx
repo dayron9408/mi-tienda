@@ -1,13 +1,17 @@
+import { Link } from '@tanstack/react-router'
+
+
 const Footer = () => {
     return (
         <footer className="bg-base-200 text-base-content mt-12">
             <div className="footer grid grid-cols-1 md:grid-cols-3 gap-10 p-10">
                 <div>
                     <span className="footer-title">Tienda</span>
-                    <a className="link link-hover">Inicio</a>
-                    <a className="link link-hover">Productos</a>
-                    <a className="link link-hover">Carrito</a>
+                    <Link to="/" className="link link-hover">Inicio</Link>
+                    <Link to="/" className="link link-hover">Productos</Link>
+                    <Link to="/checkout" className="link link-hover">Carrito</Link>
                 </div>
+
                 <div>
                     <span className="footer-title">Legal</span>
                     <a className="link link-hover">Términos</a>
