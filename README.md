@@ -60,4 +60,4 @@ La app estará disponible en [http://localhost:5173](http://localhost:5173)
 
 ## 📄 Licencia
 
-Este proyecto constituye una prueba técnica. Puedes adaptarlo libremente para tus necesidades.
+Este proyecto constituye una prueba técnica. Puedes adaptarlo libremente para sus necesidades.
