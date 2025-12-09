@@ -1,5 +1,8 @@
 # 🛍️ Mi Tienda
 
+<img width="2504" height="1320" alt="image" src="https://github.com/user-attachments/assets/e49bdc61-62ac-47a5-b88d-ca111df85c08" />
+
+
 Aplicación web de comercio electrónico con tema claro/oscuro, carrito dinámico y diseño responsivo. Construida con React, Vite, TailwindCSS, DaisyUI y pnpm.
 
 ---
